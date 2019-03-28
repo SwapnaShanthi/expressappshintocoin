@@ -1,0 +1,160 @@
+.navibarstyle{
+    border-radius: 5px;
+    background-color: rgb(180, 179, 179);
+    margin-top:25px;
+    margin-left:2px;
+    margin-right:20px;
+    height:25px;
+    width:150px;
+    padding-top:5px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.naviouterdiv{
+    display:flex;
+    flex-direction:row;
+
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+}
+.homeouterdiv{
+    display:flex;
+    flex-direction:column;
+    float:left;
+    margin-left:50px;
+    width:500px; 
+    text-align: left;
+
+}
+h1{
+    display:flex;
+    float:left; 
+}
+.outerformdiv{
+    display:flex;
+    flex-direction:column;
+    float:left;
+    margin-left:50px;
+    width:600px; 
+    text-align: left;
+}
+.h1formstyle{
+    font-size: 40px;
+    float:left;
+}
+.formdiv{
+    display:flex;
+    flex-direction: row;
+    float:left;
+    
+}
+
+.logostyle{
+    background-image:url("shinto.jpg"); 
+    background-size:140px;
+
+    transform: rotate(-30deg);
+    height:160px;
+    width: 150px;
+}
+.inputsyle{
+    width:200px;
+    height:20px;
+}
+.disable{
+    background-color:white;
+    cursor: not-allowed;
+    pointer-events: none;
+    height:50px;
+    width:100px;
+    margin-top:30px;
+    font-size: 17px !important;
+    color:rgb(85, 84, 84);
+    font-family: 'Comic Sans MS' !important;
+    margin-left:10px;
+ }
+ .buttonstyle {
+    background-color:white;
+    height:500px;
+    width:100px;
+    margin-top:30px;
+    font-size: 17px;
+    color:rgb(85, 84, 84);
+    font-family: 'Comic Sans MS';
+    margin-left:10px;
+}
+p { margin: 5px;
+    font-weight: 900px;
+}
+.errormessage{
+    font-size: 12px;
+    color:rgb(175, 56, 76);
+    margin-top:10px;
+
+ }
+ li{
+    list-style-type: none;
+ }
+ .listouterdiv{
+     border:1px sold rgb(29, 28, 26);
+ }
+ .lidiv{
+   margin-bottom:5px;
+   
+ }
+ .spanliststyle{
+     text-align: center;
+     margin-bottom:10px;
+     margin-right:30px;
+     display:flex;
+     flex-direction:row;
+ }
+
+.listheader{
+    margin-right:35px;
+    margin-left:0px;
+
+}
+.itemstyle{
+    vertical-align: top;
+    width:100px;
+    margin-right:60px;
+    text-align: left;
+}
+
+.ledgerinnerdiv{
+    margin-bottom:20px;
+}
+.spanledgerdetails{
+  margin-right:20px;
+}
+.spanbold{
+    font-weight: bold;
+    margin-right:10px;
+    margin-left:0px;
+}
+        
+.itemouterdiv{
+    border:1px solid black;
+
+}
+ .ledgerheader{
+        margin-bottom:10px;
+        background-color: rgb(165, 161, 161);
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        width:600px;
+    }
+     .itemheaderstyle{
+            text-align: left;
+            margin-bottom:10px;
+            display:flex;
+            flex-direction:row;
+            padding-left:10px;
+        
+        }
